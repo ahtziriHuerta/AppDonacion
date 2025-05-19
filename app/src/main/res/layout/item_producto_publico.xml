@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAFAFA"
+    android:layout_marginBottom="8dp">
+
+    <!-- Imagen del producto -->
+    <ImageView
+        android:id="@+id/imgProducto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/img_producto" />
+
+    <!-- Nombre del producto -->
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_producto_sample"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:layout_marginTop="8dp" />
+
+    <!-- Correo del donador -->
+    <TextView
+        android:id="@+id/textDonador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/publicado_por_sample"
+        android:textSize="12sp"
+        android:textColor="#777777"
+        android:layout_marginTop="4dp" />
+
+    <!-- Descripción del producto -->
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_producto_sample"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botón Me interesa -->
+    <Button
+        android:id="@+id/btnMeInteresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_me_interesa"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

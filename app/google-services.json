@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083737582526",
+    "project_id": "manitas-4ae57",
+    "storage_bucket": "manitas-4ae57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083737582526:android:859a8ba0cc37433761e7ef",
+        "android_client_info": {
+          "package_name": "com.example.donapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpQQKMjFTx3SW_INvAHeySPdMhMYMx0lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

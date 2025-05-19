@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1E7C4FF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Logo superior -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="@string/logo"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenido"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6A4FB3"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botones -->
+
+        <Button
+            android:id="@+id/btnMisProductos"
+            style="@style/DashboardButton"
+            android:text="@string/ver_mis_productos" />
+
+        <Button
+            android:id="@+id/btnAgregarProducto"
+            style="@style/DashboardButton"
+            android:text="Agregar producto"
+            android:layout_marginTop="16dp" />
+        <Button
+            android:id="@+id/btnUsuariosCercanos"
+            style="@style/DashboardButton"
+            android:text="Ubicaciones"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/btnVerTodosProductos"
+            style="@style/DashboardButton"
+            android:text="@string/ver_todos_productos" />
+
+        <Button
+            android:id="@+id/btnVerNotificaciones"
+            style="@style/DashboardButton"
+            android:text="@string/ver_notificaciones" />
+
+        <Button
+            android:id="@+id/btnVerChats"
+            style="@style/DashboardButton"
+            android:text="@string/chats_iniciados" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            style="@style/DashboardButton.Red"
+            android:text="@string/cerrar_sesion"
+            android:layout_marginTop="32dp" />
+
+    </LinearLayout>
+</ScrollView>
+

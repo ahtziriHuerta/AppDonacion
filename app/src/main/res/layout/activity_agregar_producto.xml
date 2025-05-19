@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#B1E7C4FF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del producto"
+            android:minHeight="48dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/editDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6A4FB3"
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:id="@+id/imageViewProducto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:background="#DADADA" />
+
+        <Button
+            android:id="@+id/btnSubir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir donación"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6A4FB3"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/mensajeConfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Producto agregado con éxito!"
+            android:textColor="#4CAF50"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnVolverDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:backgroundTint="#888"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+</ScrollView>
