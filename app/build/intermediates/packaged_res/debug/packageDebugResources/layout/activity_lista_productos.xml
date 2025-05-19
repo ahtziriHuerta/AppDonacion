@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#B1E7C4FF">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerProductos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textoVacio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No tienes productos registrados"
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnAgregarProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar producto"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

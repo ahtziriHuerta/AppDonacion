@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.donapp-mergeDebugResources-37:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/simple/.gradle/caches/8.10.2/transforms/e95da1aa9d7122317e7ab1fecd90319d/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

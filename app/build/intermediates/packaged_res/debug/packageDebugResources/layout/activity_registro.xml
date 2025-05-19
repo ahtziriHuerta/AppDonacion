@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#B1E7C4FF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre completo"
+            android:inputType="textPersonName"
+            android:drawableStart="@android:drawable/ic_menu_myplaces"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000"
+            android:textColorHint="#888" />
+
+        <EditText
+            android:id="@+id/editCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo institucional"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000"
+            android:textColorHint="#888" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:drawableStart="@android:drawable/ic_lock_lock"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000"
+            android:textColorHint="#888" />
+
+        <EditText
+            android:id="@+id/editDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Domicilio"
+            android:inputType="textPostalAddress"
+            android:drawableStart="@android:drawable/ic_menu_mylocation"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000"
+            android:textColorHint="#888" />
+
+        <EditText
+            android:id="@+id/editCodigoInstitucional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código institucional"
+            android:inputType="text"
+            android:drawableStart="@android:drawable/ic_input_get"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000"
+            android:textColorHint="#888" />
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="#FFF"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
+

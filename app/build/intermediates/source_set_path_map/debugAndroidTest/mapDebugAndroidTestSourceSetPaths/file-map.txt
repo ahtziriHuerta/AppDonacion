@@ -1,0 +1,6 @@
+com.example.donapp.test.app-tracing-1.2.0-0 /Users/simple/.gradle/caches/8.10.2/transforms/ebcb9045149671ffb70fe28e81e7f81a/transformed/tracing-1.2.0/res
+com.example.donapp.test.app-core-1.6.1-1 /Users/simple/.gradle/caches/8.10.2/transforms/f94490ff3a8c93d555e01b0d1f8a456d/transformed/core-1.6.1/res
+com.example.donapp.test.app-androidTest-2 /Users/simple/Desktop/DonApp2/app/build/generated/res/resValues/androidTest/debug
+com.example.donapp.test.app-mergeDebugAndroidTestResources-3 /Users/simple/Desktop/DonApp2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.donapp.test.app-mergeDebugAndroidTestResources-4 /Users/simple/Desktop/DonApp2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.donapp.test.app-debugAndroidTest-5 /Users/simple/Desktop/DonApp2/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

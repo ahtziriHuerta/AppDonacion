@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1083737582526</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpQQKMjFTx3SW_INvAHeySPdMhMYMx0lE</string>
+    <string name="google_app_id" translatable="false">1:1083737582526:android:859a8ba0cc37433761e7ef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpQQKMjFTx3SW_INvAHeySPdMhMYMx0lE</string>
+    <string name="google_storage_bucket" translatable="false">manitas-4ae57.firebasestorage.app</string>
+    <string name="project_id" translatable="false">manitas-4ae57</string>
+</resources>

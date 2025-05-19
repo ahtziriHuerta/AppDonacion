@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="lavanda_claro">#F8F1FF</color>
+    <color name="purple_50">#F3E8FF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="app_name">DonApp</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="btn_agregar">Agregar Producto</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_login2">Iniciar sesión</string>
+    <string name="btn_me_interesa">Me interesa ❤️</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="btn_seleccionar_imagen">Seleccionar imagen</string>
+    <string name="btn_subir">Subir donación</string>
+    <string name="btn_ver_productos">Ver Productos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="chat_header">Conversación sobre \'%1$s\' con %2$s</string>
+    <string name="chats_iniciados">Chats iniciados</string>
+    <string name="descripcion_producto_sample">Tipo o condición</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="gcm_defaultSenderId" translatable="false">1083737582526</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpQQKMjFTx3SW_INvAHeySPdMhMYMx0lE</string>
+    <string name="google_app_id" translatable="false">1:1083737582526:android:859a8ba0cc37433761e7ef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpQQKMjFTx3SW_INvAHeySPdMhMYMx0lE</string>
+    <string name="google_storage_bucket" translatable="false">manitas-4ae57.firebasestorage.app</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_escribe_mensaje">Escribe un mensaje</string>
+    <string name="hint_imagen">Imagen del producto</string>
+    <string name="hint_nombre">Nombre del producto</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="imagen_producto">Imagen del producto</string>
+    <string name="img_producto">Imagen del producto</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logo">Logo Manitas</string>
+    <string name="mensaje_interes">¡Enviar mensaje \'%1$s\'!</string>
+    <string name="nombre_producto_sample">Nombre del producto</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="producto_descripcion_label">Descripción</string>
+    <string name="producto_imagen_content">Imagen del producto</string>
+    <string name="producto_nombre_label">Nombre</string>
+    <string name="project_id" translatable="false">manitas-4ae57</string>
+    <string name="publicado_por">Publicado por: %1$s</string>
+    <string name="publicado_por_sample">Publicado por: ejemplo@cucei.udg.mx</string>
+    <string name="register">Registrarse</string>
+    <string name="register_link">¿No tienes cuenta? Regístrate</string>
+    <string name="seleccionar_imagen">Seleccionar imagen</string>
+    <string name="subir_donacion">Subir donación</string>
+    <string name="terminos_condiciones">
+    <![CDATA[
+    <b>TÉRMINOS Y CONDICIONES DE USO</b><br/><br/>
+    <b>Manitas - Plataforma de Donación en CUCEI</b><br/><br/>
+
+    Última actualización: 18 mayo 2025<br/><br/>
+
+    <b>1. Aceptación de los Términos</b><br/>
+    Al utilizar la aplicación DonApp (en adelante "la App"), el usuario acepta los siguientes Términos y Condiciones. Si no estás de acuerdo con estos términos, por favor no utilices esta aplicación.<br/><br/>
+
+    <b>2. Objetivo de la Aplicación</b><br/>
+    DonApp es una plataforma creada con fines altruistas que permite a alumnos, maestros y personal del Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) donar y recibir productos de manera gratuita, promoviendo el apoyo comunitario dentro del campus.<br/><br/>
+
+    <b>3. Usuarios Permitidos</b><br/>
+    El uso de la App está restringido únicamente a miembros activos de la comunidad CUCEI:<br/>
+    - Estudiantes matriculados<br/>
+    - Profesores y personal administrativo<br/>
+    - Usuarios con una cuenta institucional válida (por ejemplo, @alumnos.udg.mx o @cucei.udg.mx)<br/><br/>
+
+    <b>4. Registro y Acceso</b><br/>
+    Para acceder a las funciones completas de la App, los usuarios deberán:<br/>
+    - Registrarse con un correo institucional válido<br/>
+    - Proporcionar información real y actualizada<br/>
+    - Aceptar el uso de su nombre, correo institucional y ubicación dentro del campus para propósitos de identificación y logística<br/><br/>
+
+    <b>5. Política de Donaciones</b><br/>
+    - Todos los productos ofrecidos en la App deben ser donados de forma gratuita.<br/>
+    - Está prohibida cualquier forma de venta, renta o intercambio por dinero.<br/>
+    - Solo se permite la publicación de artículos relacionados con necesidades estudiantiles o familiares (ropa, útiles, juguetes, artículos de bebé, etc.).<br/>
+    - La App no se hace responsable del estado o funcionalidad de los productos ofrecidos.<br/><br/>
+
+    <b>6. Responsabilidades del Usuario</b><br/>
+    - El usuario es responsable del contenido que publica (imágenes, descripciones, datos personales).<br/>
+    - Está prohibido subir contenido ofensivo, falso, ilegal o que infrinja los derechos de terceros.<br/>
+    - El incumplimiento de estas normas puede resultar en la suspensión o eliminación de la cuenta.<br/><br/>
+
+    <b>7. Privacidad y Seguridad</b><br/>
+    - La App cumple con las políticas de protección de datos personales establecidas <br/>
+    - Solo se utilizará la información personal con fines de contacto entre donantes y receptores dentro de la red CUCEI.<br/>
+    - No se compartirá información con terceros ni se utilizará con fines comerciales.<br/><br/>
+
+    <b>8. Limitación de Responsabilidad</b><br/>
+    - DonApp actúa únicamente como intermediario entre usuarios donantes y receptores.<br/>
+    - No se garantiza la disponibilidad, calidad ni entrega efectiva de los artículos ofrecidos.<br/>
+    - La App no se hace responsable por pérdidas, daños o conflictos derivados del uso de la plataforma.<br/><br/>
+
+    <b>9. Modificaciones</b><br/>
+    Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Cualquier cambio será notificado a través de la App o por correo institucional.<br/><br/>
+
+    <b>10. Contacto</b><br/>
+    Para dudas o sugerencias, puedes escribirnos a: soporte@manitas.mx&#8230;
+    ]]>
+</string>
+    <string name="ver_mis_productos">Ver Mis Productos</string>
+    <string name="ver_notificaciones">Ver Notificaciones</string>
+    <string name="ver_todos_productos">Ver Todos los Productos</string>
+    <string name="vista_previa">Vista previa</string>
+    <string name="welcome">Bienvenido a Manitas</string>
+    <style name="Base.Theme.DonApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="DashboardButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="DashboardButton.Red" parent="DashboardButton">
+        <item name="android:backgroundTint">#C62828</item>
+    </style>
+    <style name="Theme.DonApp" parent="Base.Theme.DonApp"/>
+</resources>
